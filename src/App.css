@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:conic-gradient(at right center, rgb(199, 210, 254), rgb(71, 85, 105), rgb(199, 210, 254));
+}
+.todo-container{
+    background:linear-gradient(to right, rgb(29, 78, 216), rgb(30, 64, 175), rgb(17, 24, 39));
+    width: 50%;
+    margin: 5em auto;
+    border-radius: 10px;
+    padding: 15px;
+    color: #000;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 5px 8px black;
+}
+
+.header{
+    font-size: 40px;
+    text-align: center;
+    color:darkgray;
+}
+
+.input-container{
+    background: linear-gradient(to right, rgb(15, 23, 42), rgb(88, 28, 135), rgb(15, 23, 42));
+    padding:0.5em;
+    border-radius: 1em;
+    border: 2px solid darkgray;
+}
+
+.input{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    border: 1px;
+    border-radius: 1em;
+    padding: 0.5em;
+    margin: 1em;
+    width: 80%;
+}
+.add-btn{
+    border-radius: 5px;
+    font-size: 16px;
+    margin: px;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+    color:darkgray;
+}
+
+.list-task{
+    font-size: 1.5em;
+    font-weight: bold;
+    font-style: italic;
+    background-color: linear-gradient(to right, rgb(56, 189, 248), rgb(103, 232, 249));
+    border: 1px solid darkgray;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+.delete-btn{
+    border-radius: 5px;
+    margin: 0 5px;
+    padding: 3px 5px;
+    border: none;
+    cursor: pointer;
+    color: darkgray;
+    float: right;
+}
